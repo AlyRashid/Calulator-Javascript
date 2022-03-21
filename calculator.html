@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>final</title>
+    <link rel="stylesheet" href="calulator.css">
+</head>
+<body>
+   <div class="container">
+      <h1>Calclator</h1>
+      <div class="calculator">
+          <input type="text" name="screen" id="screen">
+  <table>
+  <tr>
+      <td><button onclick="store_value('(')">(</button></td>
+      <td><button onclick="store_value(')')">)</button></td>
+      <td><button onclick="clear_screen()">C</button></td>
+      <td><button onclick="store_value('/')">/</button></td>
+ </tr>
+
+  <tr>
+      <td><button onclick="get_number(7)">7</button></td>
+      <td><button onclick="get_number(8)">8</button></td>
+      <td><button onclick="get_number(9)"> 9</button></td>
+      <td><button onclick="store_value('*')">*</button></td>
+ </tr>
+
+  <tr>
+      <td><button onclick="get_number(4)">4</button></td>
+      <td><button onclick="get_number(5)">5</button></td>
+      <td><button onclick="get_number(6)">6</button></td>
+      <td><button onclick="store_value('-')">-</buttono></td>
+    </p>
+ </tr>
+
+  <tr>
+     <td><button onclick="get_number(1)">1</button></td>
+     <td><button onclick="get_number(2)">2</button></td>
+     <td><button onclick="get_number(3)">3</button></td>
+     <td><button onclick="store_value('+')">+</button></td>
+    </p>
+ </tr>
+
+ <tr>
+     
+     <td><button onclick="get_number(0)">0</button></td>
+     <td><button onclick="store_value('.')" >.</button></td>
+     <td><button onclick="store_value('%')">%</button></td>
+     <td><button onclick="result()">=</button></td>
+  </tr>
+</table>
+</div>
+
+</div>
+
+     <script src="cal.js"></script>
+</body>
+</html>
